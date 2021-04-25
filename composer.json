@@ -1,0 +1,32 @@
+{
+    "name": "z-golly/simulator",
+    "description": "PHP Selenium Crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jonathan",
+            "email": "jianyang1209@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "laravel/framework": "^7.0|^8.0",
+        "php-webdriver/webdriver": "^1.10"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Golly\\Simulator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
